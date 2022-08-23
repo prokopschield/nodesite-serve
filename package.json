@@ -1,7 +1,7 @@
 {
 	"name": "nodesite-serve",
 	"description": "Serve a webpage over nodesite.eu",
-	"version": "0.0.0",
+	"version": "0.1.0-1",
 	"main": "lib/index.js",
 	"bin": {
 		"nodesite-serve": "lib/cli.js"
@@ -23,6 +23,11 @@
 	"keywords": [],
 	"license": "GPL-3.0-or-later",
 	"types": "./lib/index.d.ts",
+	"repository": "git+https://github.com/prokopschield/nodesite-serve.git",
+	"bugs": {
+		"url": "https://github.com/prokopschield/nodesite-serve/issues"
+	},
+	"homepage": "https://github.com/prokopschield/nodesite-serve#readme",
 	"directories": {
 		"lib": "lib"
 	}

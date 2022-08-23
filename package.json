@@ -1,0 +1,29 @@
+{
+	"name": "nodesite-serve",
+	"description": "Serve a webpage over nodesite.eu",
+	"version": "0.0.0",
+	"main": "lib/index.js",
+	"bin": {
+		"nodesite-serve": "lib/cli.js"
+	},
+	"author": "Prokop Schield",
+	"dependencies": {
+		"@prokopschield/argv": "^0.1.2",
+		"doge-json": "^1.2.8",
+		"mime-types": "^2.1.35",
+		"nodesite.eu": "1.2.0-33",
+		"nodesite.eu-local": "^1.2.2",
+		"nsblob": "^0.2.15",
+		"ps-std": "^0.1.6"
+	},
+	"devDependencies": {
+		"@types/mime-types": "^2.1.1",
+		"@types/node": ">=16"
+	},
+	"keywords": [],
+	"license": "GPL-3.0-or-later",
+	"types": "./lib/index.d.ts",
+	"directories": {
+		"lib": "lib"
+	}
+}
